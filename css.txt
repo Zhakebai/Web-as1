@@ -1,0 +1,209 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    border: none;
+    text-transform: capitalize;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0px 0px 2px rgb(124, 124, 124);
+}
+
+nav ul li {
+    margin-right: 80px; 
+    display: inline; 
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-decoration: none; 
+    color:rgb(110, 109, 109); 
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+header .icons a{
+    font-size: 18px;
+    color: rgb(110, 109, 109);
+    margin-left: 20px;
+}
+
+header .icons a:hover{
+    color: black;
+}
+
+.logo{
+    width: 95px;
+    object-fit: contain;
+}
+
+
+.home{
+    margin-top: 100px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.first{
+    width: 900px;
+    border-radius: 2px;
+    box-shadow: 0px, 0px, 2px gray;
+    padding-left: 20px;
+    height: 460px;
+    object-fit: cover;
+    
+}
+
+.second{
+    width: 400px;
+    height: 460px;
+    object-fit: contain;
+}
+
+.op{
+    width: 1000px;
+    padding-bottom: 30px;
+    color: rgb(59, 59, 59);
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.filter{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-color: black;
+    border: 2px solid;
+    background-color: white;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+    margin-bottom: 20px;
+}
+
+.filter:hover{
+    background-color: black;
+    color: white;
+}
+
+.clothes .heading{
+    text-align: center;
+    margin-bottom: 20px;
+    background: rgba(255, 194, 123, 0.25);
+    color: rgb(120, 120, 120);
+    padding: 1rem;
+    margin: 2rem 0;
+    font-size: 64px;
+}
+
+span{
+    color: rgb(194 110 96);
+}
+
+.clothes .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 10px;
+}
+
+.clothes .box-container .box{
+    flex: 1 1 480px;
+    box-shadow: 0px 0.5px 0.5px gray;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.clothes .box-container .box .content{
+    text-align: center;
+}
+
+.clothes .box-container .box .images{
+    position: relative;
+    text-align: center;
+    padding-top: 32px;
+    overflow: hidden;
+}
+
+.clothes .box-container .box .images img{
+    height: 400px;
+    transition: transform 0.4s;
+}
+
+.clothes .box-container .box:hover .images img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.clothes .box-container .box .images .icons{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+}
+
+.clothes .box-container .box .images .icons a{
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    width: 50%;
+    background: rgba(255, 194, 123, 0.71);
+    color: white;
+}
+
+.delivery{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.delivery h4{
+    font-size: 20px;
+}
+
+.delivery p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact{
+    text-align: center;
+}
+.contact h5{
+    margin-top: 100px;
+    font-size: 18px;
+    background-color: rgb(183, 183, 183);
+}
+
+.contact .icons a{
+    color: rgb(79, 79, 79);
+    padding-left: 18px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    
+}
